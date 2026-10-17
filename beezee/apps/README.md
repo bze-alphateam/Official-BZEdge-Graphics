@@ -1,6 +1,6 @@
 # BeeZee app identity
 
-Each BeeZee web app has its own icon, logos and Open Graph image: DEX, Staking, Burner, Factory and Communities. The family is one dark BZE disc with an app-coloured ring. Inside it sits an app glyph, slanted 10° like the BeeZee b-mark. Every logo carries the "by beezee" endorsement.
+Each BeeZee web app has its own icon, logos and Open Graph image: DEX, Staking, Burner, Factory, Communities and Explorer. The family is one dark BZE disc with an app-coloured ring. Inside it sits an app glyph, slanted 10° like the BeeZee b-mark. Every logo carries the "by beezee" endorsement.
 
 All text in the SVGs is converted to outlines (Barlow, SIL Open Font License), so no font has to be installed.
 
@@ -52,9 +52,11 @@ Keep a quarter of the icon's height clear on every side. The gap between icon an
 | Burner | `#FF8A1F` | `#E85A00` | `#C24A00` | `#FF8A1F` |
 | Factory | `#FFC933` | `#E09B00` | `#9A6A00` | `#FFC933` |
 | Communities | `#3DD07A` | `#1E9150` | `#1A7A43` | `#3DD07A` |
+| Explorer | `#22C4E2` | `#1694D2` | `#0B74A8` | `#22C4E2` |
 
 - Glyph and ring run from the light end to the dark end: the glyph top to bottom, the ring diagonally.
 - The ink colours keep white button text at a contrast of 4.5:1 or better.
+- The Explorer keeps the accent of its own interface, which sits close to the DEX cyan. Its magnifier glyph tells the two apart.
 - Shared colours: disc `#0F1318` (on light) or `#1B2128` (on dark), text `#14171C`.
 - Type: Barlow 700 for the app name, Barlow 500 for "by".
 

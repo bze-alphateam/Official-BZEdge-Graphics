@@ -68,3 +68,7 @@ Keep a quarter of the icon's height clear on every side. The gap between icon an
 - Below 32 px use the small cut.
 - No outlined b in the endorsement.
 - Never set the app name in another typeface.
+
+## UI theme
+
+The interfaces of the apps share one theme, Hive Glow: tokens (JSON and CSS), the app gradients, hero glows and specimen sheets for dark and light mode. See [theme/README.md](theme/README.md).

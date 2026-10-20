@@ -75,6 +75,8 @@ Everything else is neutral. Secondary buttons, cards, inputs and tables never ta
 
 **Staking** keeps a deeper button pair, `#9D5BD2 → #7B3AA6`, with white text, because its icon pair is too light for white text. The glow, hero word, icon tiles and featured edge keep the icon pair.
 
+**Factory** keeps a deeper button pair too, `#D9A62E → #B07C08` (hover `#E4B444 → #C08B12`), because its bright icon yellow glares as a filled button on the dark ground. The dark button text still reads at 5:1 or better. The glow, hero word, icon tiles and featured edge keep the icon pair.
+
 **Communities token pages** don't use the Communities green. They apply Hive Glow with the token's own brand kit:
 - the gradient runs from the kit's primary colour to that primary 25 % darker;
 - the glow is the primary at 18 % plus the secondary at 10 %;
@@ -93,7 +95,7 @@ Status colours stay the shared ones.
 | DEX | `#12C1E1 → #1694D2` | `#04131C` | `#0E74AD` | `#7FD8EE` |
 | Staking | `#B57EDC → #8E44AD` (button `#9D5BD2 → #7B3AA6`) | `#FFFFFF` | `#8E44AD` | `#D2AEEC` |
 | Burner | `#FF8A1F → #E85A00` | `#1A0A00` | `#C24A00` | `#FFB27A` |
-| Factory | `#FFC933 → #E09B00` | `#1A1200` | `#9A6A00` (small text on ground `#8A5F00`) | `#FFD970` |
+| Factory | `#FFC933 → #E09B00` (button `#D9A62E → #B07C08`) | `#1A1200` | `#9A6A00` (small text on ground `#8A5F00`) | `#FFD970` |
 | Communities | `#3DD07A → #1E9150` | `#03170B` | `#1A7A43` | `#7FE3A8` |
 
 | Shared | Dark | Light |

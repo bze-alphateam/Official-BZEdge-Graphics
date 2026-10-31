@@ -1,6 +1,6 @@
 # BeeZee app identity
 
-Each BeeZee web app has its own icon, logos and Open Graph image: DEX, Staking, Burner, Factory, Communities and Explorer. The family is one dark BZE disc with an app-coloured ring. Inside it sits an app glyph, slanted 10° like the BeeZee b-mark. Every logo carries the "by beezee" endorsement.
+Each BeeZee web app has its own icon, logos and Open Graph image: DEX, Staking, Burner, Factory, Communities and Explorer, plus the BeePocket wallet extension (see `beepocket/README.md` for its Chrome icons). The family is one dark BZE disc with an app-coloured ring. Inside it sits an app glyph, slanted 10° like the BeeZee b-mark. Every logo carries the "by beezee" endorsement.
 
 All text in the SVGs is converted to outlines (Barlow, SIL Open Font License), so no font has to be installed.
 
@@ -53,6 +53,7 @@ Keep a quarter of the icon's height clear on every side. The gap between icon an
 | Factory | `#FFC933` | `#E09B00` | `#9A6A00` | `#FFC933` |
 | Communities | `#3DD07A` | `#1E9150` | `#1A7A43` | `#3DD07A` |
 | Explorer | `#22C4E2` | `#1694D2` | `#0B74A8` | `#22C4E2` |
+| BeePocket | `#33C3E0` | `#0094C5` | `#0B74A8` | `#33C3E0` |
 
 - Glyph and ring run from the light end to the dark end: the glyph top to bottom, the ring diagonally.
 - The ink colours keep white button text at a contrast of 4.5:1 or better.

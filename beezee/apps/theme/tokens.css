@@ -1,5 +1,5 @@
 /* BeeZee apps UI theme (Hive Glow). Generated file: do not edit by hand. */
-/* Put data-app="dex|staking|burner|factory|communities" on <html> or <body>; light mode is data-theme="light" or class "light". */
+/* Put data-app="dex|staking|burner|factory|communities|site" on <html> or <body>; light mode is data-theme="light" or class "light". */
 
 :root,
 [data-theme="dark"] {
@@ -300,6 +300,34 @@
 .light[data-app="communities"] {
   --hg-glow: radial-gradient(70% 80% at 50% 0%, rgba(61,208,122,0.16), rgba(30,145,80,0.05) 45%, rgba(245,247,250,0) 75%);
   --hg-glow-inner: radial-gradient(70% 80% at 50% 0%, rgba(61,208,122,0.08), rgba(30,145,80,0.025) 45%, rgba(245,247,250,0) 75%);
+}
+
+[data-app="site"] {
+  --hg-app-1: #33C3E0;
+  --hg-app-2: #0094C5;
+  --hg-app-on-dark: #33C3E0;
+  --hg-app-button-1: #33C3E0;
+  --hg-app-button-2: #0094C5;
+  --hg-app-button-text: #04131C;
+  --hg-app-button-hover-1: #5ACFE7;
+  --hg-app-button-hover-2: #12A3D2;
+  --hg-app-accent-text: #8AD9EC;
+  --hg-app-accent-text-hover: #BDEAF5;
+  --hg-app-ink: #007AA3;
+  --hg-app-ink-dark: #005E7D;
+  --hg-app-ink-text: #007AA3;
+  --hg-app-tint-1: 51,195,224;
+  --hg-app-tint-2: 0,148,197;
+  --hg-glow: radial-gradient(70% 80% at 30% 0%, rgba(51,195,224,0.26), rgba(0,148,197,0.08) 45%, rgba(10,12,16,0) 75%);
+  --hg-glow-inner: radial-gradient(70% 80% at 30% 0%, rgba(51,195,224,0.13), rgba(0,148,197,0.04) 45%, rgba(10,12,16,0) 75%);
+}
+
+[data-theme="light"] [data-app="site"],
+[data-theme="light"][data-app="site"],
+.light [data-app="site"],
+.light[data-app="site"] {
+  --hg-glow: radial-gradient(70% 80% at 30% 0%, rgba(51,195,224,0.16), rgba(0,148,197,0.05) 45%, rgba(245,247,250,0) 75%);
+  --hg-glow-inner: radial-gradient(70% 80% at 30% 0%, rgba(51,195,224,0.08), rgba(0,148,197,0.025) 45%, rgba(245,247,250,0) 75%);
 }
 
 [data-app] {

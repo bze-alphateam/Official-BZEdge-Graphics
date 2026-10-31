@@ -21,8 +21,14 @@ extension/store/promo-small-440x280.png   Web Store small promo tile
 
 The toolbar and store icons always use the default colours. Inside the wallet, the icon is a chameleon: the disc stays dark while the ring, the glyph and the background glow take the colours of the selected token's kit.
 
+## Inside the wallet
+
+BeePocket's own screens carry no beezee endorsement: the wallet is about the user's tokens. Use the icon, the compact lockup, or the plain portrait (`portrait/svg/portrait-plain-{light,dark}.svg`: icon and name, no "by beezee"). The endorsed lockups are for everything outside the wallet: the store listing, websites, docs and social posts.
+
 ## Colours
+
+BeePocket uses the Communities green: it is the wallet for community tokens.
 
 | | Light end | Dark end | Ink (text and buttons on light) | On dark |
 | --- | --- | --- | --- | --- |
-| BeePocket (BZE kit) | `#33C3E0` | `#0094C5` | `#0B74A8` | `#33C3E0` |
+| BeePocket (Communities green) | `#3DD07A` | `#1E9150` | `#1A7A43` | `#3DD07A` |

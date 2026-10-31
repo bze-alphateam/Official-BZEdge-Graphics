@@ -22,7 +22,7 @@ All files are generated. Don't edit them by hand: change the source values and e
 
 ## Using tokens.css
 
-Put `data-app="dex"` (or `staking`, `burner`, `factory`, `communities`) on `<html>` or `<body>`. For light mode add `data-theme="light"` or the class `light`. Then use the semantic variables:
+Put `data-app="dex"` (or `staking`, `burner`, `factory`, `communities`, `site`) on `<html>` or `<body>`. For light mode add `data-theme="light"` or the class `light`. Then use the semantic variables:
 
 | Variable | What it is |
 | --- | --- |
@@ -77,6 +77,8 @@ Everything else is neutral. Secondary buttons, cards, inputs and tables never ta
 
 **Factory** keeps a deeper button pair too, `#D9A62E → #B07C08` (hover `#E4B444 → #C08B12`), because its bright icon yellow glares as a filled button on the dark ground. The dark button text still reads at 5:1 or better. The glow, hero word, icon tiles and featured edge keep the icon pair.
 
+**BeeZee (`site`)** is the brand-level entry, not an app. getbze.com uses it, and so does any BeeZee surface without an app colour of its own. App gradients stay with their apps. Its light-mode Ink `#007AA3` reads at 4.5:1 on the light ground.
+
 **Communities token pages** don't use the Communities green. They apply Hive Glow with the token's own brand kit:
 - the gradient runs from the kit's primary colour to that primary 25 % darker;
 - the glow is the primary at 18 % plus the secondary at 10 %;
@@ -97,6 +99,7 @@ Status colours stay the shared ones.
 | Burner | `#FF8A1F → #E85A00` | `#1A0A00` | `#C24A00` | `#FFB27A` |
 | Factory | `#FFC933 → #E09B00` (button `#D9A62E → #B07C08`) | `#1A1200` | `#9A6A00` (small text on ground `#8A5F00`) | `#FFD970` |
 | Communities | `#3DD07A → #1E9150` | `#03170B` | `#1A7A43` | `#7FE3A8` |
+| BeeZee (`site`) | `#33C3E0 → #0094C5` | `#04131C` | `#007AA3` | `#8AD9EC` |
 
 | Shared | Dark | Light |
 | --- | --- | --- |

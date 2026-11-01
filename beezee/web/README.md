@@ -17,6 +17,8 @@ maskable-512.png       512 × 512 tile; the mark sits inside the 80 % safe zone
 svg/icon.svg           the mark, unchanged
 svg/icon-small.svg     small cut for 16 and 32 px
 svg/app-tile.svg       the tile used for apple-touch and maskable
+og/og-image.png        1200 × 630 share image (Open Graph and X card)
+og/og-image.svg        its source, text outlined
 ```
 
 ## Small cut
@@ -37,3 +39,7 @@ The mark's disc is pure black, so the tile is pure black (`#000000`) and the two
 ```
 
 In the web manifest, list `icon-192.png` and `icon-512.png`, plus `maskable-512.png` with `"purpose": "maskable"`, one size per entry.
+
+## Share image
+
+`og/og-image.png` is the share image for sites that speak for BeeZee itself. It uses the same layout as the app share images in `../apps/<app>/og/`: the wordmark, the name, one line of tagline and the domain on the left, and the round BZ mark on the right.

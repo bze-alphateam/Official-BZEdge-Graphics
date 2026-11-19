@@ -302,6 +302,34 @@
   --hg-glow-inner: radial-gradient(70% 80% at 50% 0%, rgba(61,208,122,0.08), rgba(30,145,80,0.025) 45%, rgba(245,247,250,0) 75%);
 }
 
+[data-app="dao"] {
+  --hg-app-1: #8F8CFF;
+  --hg-app-2: #5B55E8;
+  --hg-app-on-dark: #8F8CFF;
+  --hg-app-button-1: #6562EE;
+  --hg-app-button-2: #4840CC;
+  --hg-app-button-text: #FFFFFF;
+  --hg-app-button-hover-1: #7471F2;
+  --hg-app-button-hover-2: #5650D6;
+  --hg-app-accent-text: #B9B7FF;
+  --hg-app-accent-text-hover: #D9D8FF;
+  --hg-app-ink: #4F48D0;
+  --hg-app-ink-dark: #3B35A8;
+  --hg-app-ink-text: #4F48D0;
+  --hg-app-tint-1: 143,140,255;
+  --hg-app-tint-2: 91,85,232;
+  --hg-glow: radial-gradient(70% 80% at 30% 0%, rgba(143,140,255,0.26), rgba(91,85,232,0.09) 45%, rgba(10,12,16,0) 75%);
+  --hg-glow-inner: radial-gradient(70% 80% at 30% 0%, rgba(143,140,255,0.13), rgba(91,85,232,0.045) 45%, rgba(10,12,16,0) 75%);
+}
+
+[data-theme="light"] [data-app="dao"],
+[data-theme="light"][data-app="dao"],
+.light [data-app="dao"],
+.light[data-app="dao"] {
+  --hg-glow: radial-gradient(70% 80% at 30% 0%, rgba(143,140,255,0.16), rgba(91,85,232,0.05) 45%, rgba(245,247,250,0) 75%);
+  --hg-glow-inner: radial-gradient(70% 80% at 30% 0%, rgba(143,140,255,0.08), rgba(91,85,232,0.025) 45%, rgba(245,247,250,0) 75%);
+}
+
 [data-app="site"] {
   --hg-app-1: #33C3E0;
   --hg-app-2: #0094C5;

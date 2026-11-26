@@ -1,8 +1,8 @@
 # Hive Glow: the BeeZee apps UI theme
 
-Hive Glow is the shared look of the BeeZee web apps: DEX, Staking, Burner, Factory and Communities. The rule is **one layout, five colours**. Every app uses the same ground, cards, type, buttons and hero. Only the app gradient changes, and it comes from the app icons in `../<app>/`.
+Hive Glow is the shared look of the BeeZee web apps: DEX, Staking, Burner, Factory, Communities and DAO. The rule is **one layout, one colour per app**. Every app uses the same ground, cards, type, buttons and hero. Only the app gradient changes, and it comes from the app icons in `../<app>/`.
 
-The theme is brand-wide. Neutrals, type, buttons, cards and the glow apply to getbze.com and any other BeeZee interface too. The five app gradients belong to their apps.
+The theme is brand-wide. Neutrals, type, buttons, cards and the glow apply to getbze.com and any other BeeZee interface too. The app gradients belong to their apps.
 
 Dark mode is the default. Light mode swaps the neutrals and uses each app's Ink colour wherever you read or press something.
 
@@ -22,7 +22,7 @@ All files are generated. Don't edit them by hand: change the source values and e
 
 ## Using tokens.css
 
-Put `data-app="dex"` (or `staking`, `burner`, `factory`, `communities`, `site`) on `<html>` or `<body>`. For light mode add `data-theme="light"` or the class `light`. Then use the semantic variables:
+Put `data-app="dex"` (or `staking`, `burner`, `factory`, `communities`, `dao`, `site`) on `<html>` or `<body>`. For light mode add `data-theme="light"` or the class `light`. Then use the semantic variables:
 
 | Variable | What it is |
 | --- | --- |
@@ -75,6 +75,8 @@ Everything else is neutral. Secondary buttons, cards, inputs and tables never ta
 
 **Staking** keeps a deeper button pair, `#9D5BD2 → #7B3AA6`, with white text, because its icon pair is too light for white text. The glow, hero word, icon tiles and featured edge keep the icon pair.
 
+**DAO** keeps a deeper button pair too, `#6562EE → #4840CC` (hover `#7471F2 → #5650D6`), with white text: white on the icon pair reads under 4.5:1 at the light end. The glow, hero word, icon tiles and featured edge keep the icon pair.
+
 **Factory** keeps a deeper button pair too, `#D9A62E → #B07C08` (hover `#E4B444 → #C08B12`), because its bright icon yellow glares as a filled button on the dark ground. The dark button text still reads at 5:1 or better. The glow, hero word, icon tiles and featured edge keep the icon pair.
 
 **BeeZee (`site`)** is the brand-level entry, not an app. getbze.com uses it, and so does any BeeZee surface without an app colour of its own. App gradients stay with their apps. Its light-mode Ink `#007AA3` reads at 4.5:1 on the light ground.
@@ -99,6 +101,7 @@ Status colours stay the shared ones.
 | Burner | `#FF8A1F → #E85A00` | `#1A0A00` | `#C24A00` | `#FFB27A` |
 | Factory | `#FFC933 → #E09B00` (button `#D9A62E → #B07C08`) | `#1A1200` | `#9A6A00` (small text on ground `#8A5F00`) | `#FFD970` |
 | Communities | `#3DD07A → #1E9150` | `#03170B` | `#1A7A43` | `#7FE3A8` |
+| DAO | `#8F8CFF → #5B55E8` (button `#6562EE → #4840CC`) | `#FFFFFF` | `#4F48D0` | `#B9B7FF` |
 | BeeZee (`site`) | `#33C3E0 → #0094C5` | `#04131C` | `#007AA3` | `#8AD9EC` |
 
 | Shared | Dark | Light |

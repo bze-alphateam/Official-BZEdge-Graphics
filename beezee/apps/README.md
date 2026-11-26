@@ -1,6 +1,6 @@
 # BeeZee app identity
 
-Each BeeZee web app has its own icon, logos and Open Graph image: DEX, Staking, Burner, Factory, Communities and Explorer, plus the BeePocket wallet extension (see `beepocket/README.md` for its Chrome icons). The family is one dark BZE disc with an app-coloured ring. Inside it sits an app glyph, slanted 10° like the BeeZee b-mark. Every logo carries the "by beezee" endorsement (BeePocket also has a plain portrait for its own screens).
+Each BeeZee web app has its own icon, logos and Open Graph image: DEX, Staking, Burner, Factory, Communities, Explorer and DAO, plus the BeePocket wallet extension (see `beepocket/README.md` for its Chrome icons). The family is one dark BZE disc with an app-coloured ring. Inside it sits an app glyph, slanted 10° like the BeeZee b-mark. Every logo carries the "by beezee" endorsement (BeePocket also has a plain portrait for its own screens).
 
 All text in the SVGs is converted to outlines (Barlow, SIL Open Font License), so no font has to be installed.
 
@@ -53,11 +53,13 @@ Keep a quarter of the icon's height clear on every side. The gap between icon an
 | Factory | `#FFC933` | `#E09B00` | `#9A6A00` | `#FFC933` |
 | Communities | `#3DD07A` | `#1E9150` | `#1A7A43` | `#3DD07A` |
 | Explorer | `#22C4E2` | `#1694D2` | `#0B74A8` | `#22C4E2` |
+| DAO | `#8F8CFF` | `#5B55E8` | `#4F48D0` | `#8F8CFF` |
 | BeePocket | `#3DD07A` | `#1E9150` | `#1A7A43` | `#3DD07A` |
 
 - Glyph and ring run from the light end to the dark end: the glyph top to bottom, the ring diagonally.
 - The ink colours keep white button text at a contrast of 4.5:1 or better.
 - The Explorer keeps the accent of its own interface, which sits close to the DEX cyan. Its magnifier glyph tells the two apart.
+- DAO uses indigo, clear of the status colours its pages lean on (danger red, testnet red, success green). Its glyph is a hall: a pediment on three columns.
 - Shared colours: disc `#0F1318` (on light) or `#1B2128` (on dark), text `#14171C`.
 - Type: Barlow 700 for the app name, Barlow 500 for "by".
 
